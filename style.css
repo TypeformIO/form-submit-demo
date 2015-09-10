@@ -43,7 +43,7 @@ body, html {
   }
 }
 
-a {
+#application a {
   text-decoration: none;
   border-radius: 3px;
   border: 2px solid;
@@ -52,7 +52,7 @@ a {
   padding: 10px;
 }
 
-a:hover {
+#application a:hover {
   color: #FFF;
   background-color: #8BCBCA;
   cursor: pointer;
