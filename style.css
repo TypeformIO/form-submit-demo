@@ -3,7 +3,7 @@ body, html {
   overflow: hidden;
 
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #37404A;
 }
