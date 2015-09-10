@@ -37,6 +37,12 @@ body, html {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  #page_three img {
+    width: 50%;
+  }
+}
+
 a {
   text-decoration: none;
   border-radius: 3px;
