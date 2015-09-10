@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Bin</title>
+  <script src="jquery-2.1.4.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div id="application">
+    <div id="event_status">
+      <div class="event_not_yet">Waiting for form-submit event...</div>
+      <div class="event_submitted">form-submit event have been received!!!</div>
+    </div>
+    <div id="page_one" class="slide">
+      <h1 class="step_one">Please fill out this form</h1>
+      <p class="step_two">
+      We would really like to hear your opinion about the Toaster Fridge you just bought. <strong>Click below to be able to win a teddy bear</strong>
+      </p>
+      <br/>
+      <a href="#" id="ready" class="step_three">I'm ready!</a>
+      <p class="step_four"><small>
+        Protip: Look at the top-left corner to see the status of the submit event
+      </small></p>
+    </div>
+    <div id="page_two" class="slide">
+      <iframe id="form"  src="https://forms.typeform.io/to/N8SfkWWXZG" width="100%" height="100%"></iframe>
+    </div>
+    <div id="page_three" class="slide">
+      <h1 class="step_one">Thank you!</h1>
+      <img class="step_two" src="http://i.giphy.com/u0bQN6bxXweHe.gif" alt="">
+      <h3 class="step_three">We value your feedback extremely much!</h3>
+      <p class="step_four">
+        And we're gonna make sure that we take care of the feedback you left, and improve our services so the next time you buy something from us, we'll be even better!
+      </p>
+      <br/>
+      <a class="step_five" href="http://www.typeform.io">Visit Typeform I/O</a>
+    </div>
+  </div>
+</body>
+</html>
