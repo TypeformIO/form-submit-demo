@@ -36,6 +36,7 @@ var pages = {
   "page_two": function() {
     // Defer and focus the form for user input
     setTimeout(function() {
+      $('#form').attr('src', 'https://forms.typeform.io/to/N8SfkWWXZG');
       $('#form').focus();
     }, 0);
     /////////////////////////////////////////////////////////////////////////////
@@ -52,7 +53,7 @@ var pages = {
     });
   },
   "page_three": function() {
-    fadeInStepsInPage('three', ['one', 'two', 'three', 'four', 'five']);
+    fadeInStepsInPage('three', ['one', 'two', 'three', 'four']);
   },
 }
 
