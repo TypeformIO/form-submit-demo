@@ -1,3 +1,6 @@
+# Sorry, Typeform I/O will be deprecated soon. Please visit https://developer.typeform.com/ to discover our new developer products
+
+
 # form-submit demo
 
 This is a demo of how you can use the `form-submit` event in Typeform I/O to create
